@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+writing-pal-frontend/node_modules
+writing-pal-frontend/.pnp
+writing-pal-frontend/.pnp.js
+writing-pal-frontend/.yarn/install-state.gz
+
+# testing
+writing-pal-frontend/coverage
+
+# next.js
+writing-pal-frontend/.next/
+writing-pal-frontend/out/
+
+# production
+writing-pal-frontend/build
+
+# misc
+writing-pal-frontend/.DS_Store
+writing-pal-frontend/*.pem
+
+# debug
+writing-pal-frontend/npm-debug.log*
+writing-pal-frontend/yarn-debug.log*
+writing-pal-frontend/yarn-error.log*
+
+# local env files
+writing-pal-frontend/.env*.local
+
+# vercel
+writing-pal-frontend/.vercel
+
+# typescript
+writing-pal-frontend/*.tsbuildinfo
+writing-pal-frontend/next-env.d.ts
